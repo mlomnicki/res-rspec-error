@@ -11,7 +11,7 @@ gem 'sqlite3'
 gem 'rails_event_store'
 
 group :test do
-  gem 'rails_event_store-rspec'
+  gem 'rails_event_store-rspec', github: "RailsEventStore/rails_event_store"
 end
 
 group :development do
