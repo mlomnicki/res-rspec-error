@@ -8,7 +8,6 @@ end
 
 gem 'rails', '~> 5.1.3'
 gem 'sqlite3'
-gem 'rails_event_store'
 
 group :test do
   gem 'rails_event_store-rspec', github: "RailsEventStore/rails_event_store"
